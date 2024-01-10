@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For</title>
+  </head>
+  <body>
+    <h1>User Registration Form</h1>
+    <form>
+      First Name: <input type="text" /><br /><br />
+      Last Name: <input type="text" /><br /><br />
+      Password: <input type="password" /><br /><br />
+      Bio: <textarea name="Bio" cols="50" rows="4"></textarea><br /><br />
+      <fieldset>
+        <legend>Gender:</legend>
+        <input type="radio" name="Gender" id="a1" /><label for="a1">Male</label>
+        <br />
+        <input type="radio" name="Gender" id="a2" /><label for="a2"
+          >Female</label
+        >
+        <br />
+        <input type="radio" name="Gender" id="a3" /><label for="a3"
+          >Others</label
+        >
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Interest:</legend>
+        <input type="checkbox" name="Interest" id="a4" /><label for="a4"
+          >Music</label
+        >
+        <br />
+        <input type="checkbox" name="Interest" id="a5" /><label for="a5"
+          >Sports</label
+        ><br />
+        <input type="checkbox" name="Interest" id="a6" /><label for="a6"
+          >Reading</label
+        >
+      </fieldset>
+      <br />
+      Country:
+      <select name="country">
+        <option value="Pakistan">Pakistan</option>
+        <option value="Saudia">Saudia</option>
+        <option value="Afghanistan">Afghanistan</option>
+      </select>
+      <br /><br />
+      Preferred Color:
+      <select name="Color" size="4" multiple="multiple">
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Yellow">Yellow</option>
+      </select>
+      <br /><br />
+      Profile picture: <input type="file" /> <br /><br />
+      Birthdate: <input type="date" /> <br /><br />
+      Email: <input type="email" /> <br /><br />
+      Website: <input type="website" /> <br /><br />
+      Search: <input type="search" /> <br /><br />
+      <input type="submit" value="Submit" formtarget="_blank" />
+    </form>
+  </body>
+</html>
